@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B3F8B502C59DF3800C2DE85 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F8B4F2C59DF3800C2DE85 /* UserViewController.swift */; };
+		6B3F8B522C5A349600C2DE85 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F8B512C5A349600C2DE85 /* PasswordViewController.swift */; };
+		6B3F8B572C5A390100C2DE85 /* Example+SimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F8B562C5A390100C2DE85 /* Example+SimpleValidationViewController.swift */; };
+		6B3F8B5B2C5A392400C2DE85 /* Example+PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F8B5A2C5A392400C2DE85 /* Example+PickerViewController.swift */; };
 		6B5681E72C5875040018580F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5681E62C5875040018580F /* AppDelegate.swift */; };
 		6B5681E92C5875040018580F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5681E82C5875040018580F /* SceneDelegate.swift */; };
 		6B5681EB2C5875040018580F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5681EA2C5875040018580F /* ViewController.swift */; };
@@ -23,10 +27,14 @@
 		6B56820C2C58FED10018580F /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B56820B2C58FED10018580F /* SwitchViewController.swift */; };
 		6B56820E2C5900950018580F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B56820D2C5900950018580F /* LoginViewController.swift */; };
 		6B5682102C590B530018580F /* ObservableExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B56820F2C590B530018580F /* ObservableExample.swift */; };
-		6B5682122C5913B80018580F /* AddNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5682112C5913B80018580F /* AddNumberViewController.swift */; };
+		6B5682122C5913B80018580F /* Example+AddNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5682112C5913B80018580F /* Example+AddNumberViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B3F8B4F2C59DF3800C2DE85 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		6B3F8B512C5A349600C2DE85 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		6B3F8B562C5A390100C2DE85 /* Example+SimpleValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Example+SimpleValidationViewController.swift"; sourceTree = "<group>"; };
+		6B3F8B5A2C5A392400C2DE85 /* Example+PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Example+PickerViewController.swift"; sourceTree = "<group>"; };
 		6B5681E32C5875040018580F /* RxSwift_Prac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwift_Prac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B5681E62C5875040018580F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B5681E82C5875040018580F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +50,7 @@
 		6B56820B2C58FED10018580F /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
 		6B56820D2C5900950018580F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6B56820F2C590B530018580F /* ObservableExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableExample.swift; sourceTree = "<group>"; };
-		6B5682112C5913B80018580F /* AddNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNumberViewController.swift; sourceTree = "<group>"; };
+		6B5682112C5913B80018580F /* Example+AddNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Example+AddNumberViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B3F8B532C5A38BC00C2DE85 /* LifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				6B5681E62C5875040018580F /* AppDelegate.swift */,
+				6B5681E82C5875040018580F /* SceneDelegate.swift */,
+			);
+			path = LifeCycle;
+			sourceTree = "<group>";
+		};
+		6B3F8B542C5A38C700C2DE85 /* Rx_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6B5682112C5913B80018580F /* Example+AddNumberViewController.swift */,
+				6B3F8B562C5A390100C2DE85 /* Example+SimpleValidationViewController.swift */,
+				6B5682092C58FDB50018580F /* TableViewController.swift */,
+				6B3F8B5A2C5A392400C2DE85 /* Example+PickerViewController.swift */,
+			);
+			path = Rx_Example;
+			sourceTree = "<group>";
+		};
 		6B5681DA2C5875040018580F = {
 			isa = PBXGroup;
 			children = (
@@ -78,17 +106,17 @@
 		6B5681E52C5875040018580F /* RxSwift_Prac */ = {
 			isa = PBXGroup;
 			children = (
-				6B5681E62C5875040018580F /* AppDelegate.swift */,
-				6B5681E82C5875040018580F /* SceneDelegate.swift */,
+				6B3F8B532C5A38BC00C2DE85 /* LifeCycle */,
+				6B3F8B542C5A38C700C2DE85 /* Rx_Example */,
 				6B5681EA2C5875040018580F /* ViewController.swift */,
+				6B3F8B4F2C59DF3800C2DE85 /* UserViewController.swift */,
 				6B5682052C58C0770018580F /* OperatorViewController.swift */,
 				6B5682032C58ACA00018580F /* BasicButtonViewController.swift */,
 				6B5682072C58FB5B0018580F /* PickerViewController.swift */,
-				6B5682092C58FDB50018580F /* TableViewController.swift */,
 				6B56820B2C58FED10018580F /* SwitchViewController.swift */,
 				6B56820D2C5900950018580F /* LoginViewController.swift */,
 				6B56820F2C590B530018580F /* ObservableExample.swift */,
-				6B5682112C5913B80018580F /* AddNumberViewController.swift */,
+				6B3F8B512C5A349600C2DE85 /* PasswordViewController.swift */,
 				6B5681EC2C5875040018580F /* Main.storyboard */,
 				6B5681EF2C5875050018580F /* Assets.xcassets */,
 				6B5681F12C5875050018580F /* LaunchScreen.storyboard */,
@@ -178,11 +206,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B5682082C58FB5B0018580F /* PickerViewController.swift in Sources */,
+				6B3F8B572C5A390100C2DE85 /* Example+SimpleValidationViewController.swift in Sources */,
+				6B3F8B5B2C5A392400C2DE85 /* Example+PickerViewController.swift in Sources */,
+				6B3F8B502C59DF3800C2DE85 /* UserViewController.swift in Sources */,
 				6B56820A2C58FDB50018580F /* TableViewController.swift in Sources */,
 				6B5682062C58C0770018580F /* OperatorViewController.swift in Sources */,
 				6B5681EB2C5875040018580F /* ViewController.swift in Sources */,
 				6B5681E72C5875040018580F /* AppDelegate.swift in Sources */,
-				6B5682122C5913B80018580F /* AddNumberViewController.swift in Sources */,
+				6B3F8B522C5A349600C2DE85 /* PasswordViewController.swift in Sources */,
+				6B5682122C5913B80018580F /* Example+AddNumberViewController.swift in Sources */,
 				6B5681E92C5875040018580F /* SceneDelegate.swift in Sources */,
 				6B56820E2C5900950018580F /* LoginViewController.swift in Sources */,
 				6B5682102C590B530018580F /* ObservableExample.swift in Sources */,

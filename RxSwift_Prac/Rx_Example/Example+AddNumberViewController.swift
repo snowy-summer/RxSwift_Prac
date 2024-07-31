@@ -16,7 +16,7 @@ final class AddNumberViewController: UIViewController {
     private let number2 = UITextField()
     private let number3 = UITextField()
     private let simpleLabel = UILabel()
-    private var disposeBag = DisposeBag()
+    private let disposeBag = DisposeBag()
     
     override func viewDidLoad() {
         super.viewDidLoad()
